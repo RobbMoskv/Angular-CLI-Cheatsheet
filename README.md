@@ -1,5 +1,4 @@
 # Angular 6 CLI - Cheatsheet
----
   
 ## Introduction
   
@@ -8,7 +7,6 @@ You can find all necessary information here:
 > cli.angular.io
 
 ## Commands
----  
 
 Generate the app and skip npm install  
 
