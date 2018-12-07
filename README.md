@@ -27,7 +27,7 @@ Don't create the files but report them
 ```typescript
 ng new my-app --dry-run
 ```
-The following command shows the installed cli with any dependency.  
+The following command shows the installed cli without any dependency.  
 
 ```typescript
 npm list -g @angular/cli --depth=0
