@@ -36,10 +36,23 @@ npm list -g @angular/cli --depth=0
 ```
 
 ### Prefix
-This command allows you to define your own personal prefix for 
+This command allows you to define your own personal prefix.  
+
 ```typescript
 ng new my-app --prefix [your_prefix_name]
 ```
 
+### Skip Test
+Add this option to prevent the CLI to add .spec files to each component.  
 
+```typescript
+ng new my-app --skip-tests
+```
+
+### Scss Style
+This command allows you to add scss as your default style extention.  
+
+```typescript
+ng new my-app --style scss
+```
   
