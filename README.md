@@ -99,3 +99,9 @@ With the following flag you can format and color your lint output in an easier r
 ```typescript
 ng lint my-app --format stylish
 ```
+
+### Fix code
+By adding the following flag any detected errors are going to be fixed itslef and immediately applied.
+```typescript
+ng lint my-app --fix
+```
