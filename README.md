@@ -58,10 +58,21 @@ Add this option to prevent the CLI to add .spec files to each component.
 ng new my-app --skip-tests
 ```
 
-### Scss Style
+### Sass Style
 This command allows you to add scss as your default style extention.  
 
 ```typescript
 ng new my-app --style scss
 ```
   
+### Git
+Do not add the project to git.  
+```typescript
+ng new my-app --skip-git
+```
+  
+### Routing
+Add an own routing module to the project  
+```typescript
+ng new my-app --routing
+```
