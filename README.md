@@ -8,7 +8,14 @@ commands at all. They are just notes I consider as useful.
 You can find more necessary information here on the **official Angular CLI** webpage.  
 > Visit _cli.angular.io_
 
-## Commands
+## Commands - Generate a new Angular Application
+
+### Help
+Let me see all possible commands and their shortcuts how to generate a new App.  
+
+```typescript
+ng new --help
+```
 
 ### Skip installation
 Generate the app and skips the **npm install**  
