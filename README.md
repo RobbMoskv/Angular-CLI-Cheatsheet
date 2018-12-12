@@ -76,3 +76,26 @@ Add an own routing module to the project
 ```typescript
 ng new my-app --routing
 ```
+
+## Commands - CLI Configuration
+
+### Configuration
+Use the _angular.json_ file path to define your (global) config file settings.  
+```typescript
+ng config [what_ever]
+```
+## Commands - Linting
+tbd
+
+### Help
+This command shows all available option for linting a project.  
+
+```typescript
+ng lint my-app --help
+```
+
+### Style the lint output
+With the following flag you can format and color your lint output in an easier readable format.  
+```typescript
+ng lint my-app --format stylish
+```
