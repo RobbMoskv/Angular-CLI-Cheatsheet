@@ -2,9 +2,11 @@
   
 ## Introduction
   
-This cheat sheet is based on a John Papa Tutorial on Plural Sight.
+This cheat sheet has been created during a John Papa Tutorial on Plural Sight. This summary does not cover all possible  
+commands at all. They are just notes I consider as useful.  
   
-> You can find more necessary information here: cli.angular.io
+You can find more necessary information here on the **official Angular CLI** webpage.  
+> Visit _cli.angular.io_
 
 ## Commands
 
