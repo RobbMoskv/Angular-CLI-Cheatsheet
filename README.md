@@ -117,7 +117,7 @@ By adding the following flag any detected errors are going to be fixed itslef an
 ng lint my-app --fix
 ```
 
-## Blueprints
+## Generate Blueprints
 
 With this feature you can generate code from a blueprint by using aliases.  
   
@@ -162,4 +162,17 @@ ng g e gender
 ```typescript
 ng generate module sales -module app.module
 ng g m sales -m app.module
+```
+## Routing Blueprints
+
+### Generate Component  
+A new app with module & routing module
+```typescript
+ng new sales --routing
+```
+
+New module plus a routing module. Afterwards create a new component within this admin module.
+```typescript
+ng g m admin --routing
+ng g c admin/users
 ```
