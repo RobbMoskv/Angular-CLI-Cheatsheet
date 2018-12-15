@@ -16,6 +16,10 @@ Let me see all possible commands and their shortcuts how to generate a new App.
 ```typescript
 ng new --help
 ```
+Or just display all possible commands in general.  
+```typescript
+ng --help
+```
 
 ### Skip installation
 Generate the app and skips the **npm install**  
@@ -107,7 +111,11 @@ ng lint my-app --fix
 ```
 
 ## Blueprints
-Generate code from a blueprint by using aliases.  
+
+With this feature you can generate code from a blueprint by using aliases.  
+  
+> Use the out-of-the-box blueprints
+  
   
 ### Component
 
@@ -141,4 +149,10 @@ ng g i orders
 ```typescript
 ng generate enum gender
 ng g e gender
+```
+
+### Modules
+```typescript
+ng generate module sales -module app.module
+ng g m sales -m app.module
 ```
