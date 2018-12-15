@@ -108,8 +108,37 @@ ng lint my-app --fix
 
 ## Blueprints
 Generate code from a blueprint by using aliases.  
+  
+### Component
 
 ```typescript
-ng generate componen customer  
+ng generate component customer  
 ng g c customer
+```
+### Directive
+```typescript
+ng generate directive search 
+ng g d search
+```
+### Pipe
+```typescript
+ng generate pipe init-caps 
+ng g p init-caps 
+```
+### Class
+```typescript
+ng generate class customer-model
+ng g cl customer-model
+```
+
+### Interface
+```typescript
+ng generate interface orders
+ng g i orders
+```
+
+### Enum
+```typescript
+ng generate enum gender
+ng g e gender
 ```
