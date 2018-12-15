@@ -7,6 +7,13 @@ commands at all. They are just notes I consider as useful.
   
 You can find more necessary information here on the **official Angular CLI** webpage.  
 > Visit _cli.angular.io_
+  
+## Table of content
+
+1. [Commands - Generate a new Angular Application](#Commands-Generate-a-new-Angular-Application)
+2. [Commands - CLI Configuration](#Commands-CLI-Configuration)
+3. [Commands - Linting](#Commands-Linting)
+4. [Blueprints](#Blueprints)
 
 ## Commands - Generate a new Angular Application
 
