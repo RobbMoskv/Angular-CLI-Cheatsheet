@@ -10,12 +10,12 @@ You can find more necessary information here on the **official Angular CLI** web
   
 ## Table of content
 
-1. [Commands - Generate a new Angular Application](#Commands-Generate-a-new-Angular-Application)
-2. [Commands - CLI Configuration](#Commands-CLI-Configuration)
-3. [Commands - Linting](#Commands-Linting)
+1. [Generate new App](#Generate-new-App)
+2. [CLI Configuration](#CLI-Configuration)
+3. [Linting](#Linting)
 4. [Blueprints](#Blueprints)
 
-## Commands - Generate a new Angular Application
+## Generate new App
 
 ### Help
 Let me see all possible commands and their shortcuts how to generate a new App.  
@@ -88,14 +88,14 @@ Add an own routing module to the project
 ng new my-app --routing
 ```
 
-## Commands - CLI Configuration
+## CLI Configuration
 
 ### Configuration
 Use the _angular.json_ file path to define your (global) config file settings.  
 ```typescript
 ng config [what_ever]
 ```
-## Commands - Linting
+## Linting
 tbd
 
 ### Help
@@ -124,41 +124,41 @@ With this feature you can generate code from a blueprint by using aliases.
 > Use the out-of-the-box blueprints
   
   
-### Component
+### Generate Component
 
 ```typescript
 ng generate component customer  
 ng g c customer
 ```
-### Directive
+### Generate Directive
 ```typescript
 ng generate directive search 
 ng g d search
 ```
-### Pipe
+### Generate Pipe
 ```typescript
 ng generate pipe init-caps 
 ng g p init-caps 
 ```
-### Class
+### Generate Class
 ```typescript
 ng generate class customer-model
 ng g cl customer-model
 ```
 
-### Interface
+### Generate Interface
 ```typescript
 ng generate interface orders
 ng g i orders
 ```
 
-### Enum
+### Generate Enum
 ```typescript
 ng generate enum gender
 ng g e gender
 ```
 
-### Modules
+### Generate Modules
 ```typescript
 ng generate module sales -module app.module
 ng g m sales -m app.module
