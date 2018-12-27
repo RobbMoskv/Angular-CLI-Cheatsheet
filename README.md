@@ -10,10 +10,11 @@ You can find more necessary information here on the **official Angular CLI** web
   
 ## Table of content
 
-1. [Generate new App](#Generate-new-App)
-2. [CLI Configuration](#CLI-Configuration)
+1. [Generate new Applications](#Generate-new-App)
+2. [CLI Configuration & Setup](#CLI-Configuration)
 3. [Linting](#Linting)
-4. [Blueprints](#Blueprints)
+4. [Generating Code from Blueprints](#Blueprints)
+5. [Building and Serving](#Building-and-Serving)
 
 ## Generate new App
 
@@ -176,3 +177,27 @@ New module plus a routing module. Afterwards create a new component within this 
 ng g m admin --routing
 ng g c admin/users
 ```
+
+## Building and Serving
+
+### Webpack Analyzer
+
+```javascript
+npm install webpack-bundle-analyzer --save-de
+```
+
+```typescript
+ng build --stats-json
+```
+
+Add an additional script within the _package.json_ file to allow automated build option.
+
+```json
+"stats": "npx webpack-bundle-analyzer dist/angular-routing/stats.json",
+```
+
+```javascript
+npm run stats
+```
+
+
