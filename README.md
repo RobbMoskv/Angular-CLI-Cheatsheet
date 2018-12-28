@@ -199,5 +199,25 @@ With the following command a graphical view of webpack is generated and displaye
 ```javascript
 npm run stats
 ```
+### Common **ng build** options
+
+Generates a source map while building the solution. (Default on Dev-build)
+```typescript
+ng build --source-map
+```
+Provides an _ahead of time_ compilation.
+```typescript
+ng build --aot
+```
+
+Provides an the option to _watch_ and _rebuild_ the dist solution.
+```typescript
+ng build --watch // (-w)
+```
+Create an optimized production build.
+```typescript
+ng build --prod // (-p)
+```
+
 
 
