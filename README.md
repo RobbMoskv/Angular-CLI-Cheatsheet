@@ -195,7 +195,7 @@ Add an additional script within the _package.json_ file to allow automated build
 ```json
 "stats": "npx webpack-bundle-analyzer dist/angular-routing/stats.json",
 ```
-
+With the following command a graphical view of webpack is generated and displayed here: _http://127.0.0.1:8888/_
 ```javascript
 npm run stats
 ```
