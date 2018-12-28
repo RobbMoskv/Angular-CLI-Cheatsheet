@@ -180,31 +180,37 @@ ng g c admin/users
 
 ## Building and Serving
 
+> Use the ng <command> **-help** flag to get 
+> an overview which options are availbale for this specific command.
+
 ### Webpack Analyzer
 
+Installing
 ```javascript
 npm install webpack-bundle-analyzer --save-de
 ```
-
+By building with the stats flag the output can be examed.
 ```typescript
 ng build --stats-json
 ```
 
 Add an additional script within the _package.json_ file to allow automated build option.
-
 ```json
 "stats": "npx webpack-bundle-analyzer dist/angular-routing/stats.json",
 ```
+
 With the following command a graphical view of webpack is generated and displayed here: _http://127.0.0.1:8888/_
 ```javascript
 npm run stats
 ```
-### Common **ng build** options
+
+### Common ng build options
 
 Generates a source map while building the solution. (Default on Dev-build)
 ```typescript
 ng build --source-map
 ```
+
 Provides an _ahead of time_ compilation.
 ```typescript
 ng build --aot
@@ -214,10 +220,32 @@ Provides an the option to _watch_ and _rebuild_ the dist solution.
 ```typescript
 ng build --watch // (-w)
 ```
+
 Create an optimized production build.
 ```typescript
 ng build --prod // (-p)
 ```
 
+### Common ng serve options
 
+> All options from **ng build** are available as well for serving.
 
+Define a different port to listen on while serving.
+```typescript
+ng serve --port
+```
+
+Enables the live reloader (can be done via config file as well.
+```typescript
+ng serve --live-reload // 
+```
+
+Servers using https protocol / or certificate
+```typescript
+ng serve --ssl
+```
+
+Allows you to configurate your proxy settings.
+```typescript
+ng serve --proxy-config
+```
