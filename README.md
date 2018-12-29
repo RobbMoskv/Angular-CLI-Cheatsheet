@@ -15,6 +15,7 @@ You can find more necessary information here on the **official Angular CLI** web
 3. [Linting](#Linting)
 4. [Generating Code from Blueprints](#Blueprints)
 5. [Building and Serving](#Building-and-Serving)
+6. [## Unit and End2End Tests](#Testing)
 
 ## Generate new App
 
@@ -250,5 +251,42 @@ Allows you to configurate your proxy settings.
 ng serve --proxy-config
 ```
 ---
-### Common ng add packages
+### Common ng add options
 
+Add new capabilities to existing app.
+```typescript
+ng add [package]
+ng add @angular/material
+```
+## Testing
+
+### Standard run
+Run to test all defined specs within this application.
+```typescript
+ng test <options>
+```
+
+### Code coverage flag
+Generates a code coverage report (default false)
+```typescript
+ng test --code-coverage
+```
+
+### Progress Log flag
+Logs the test progress to the console (default true)
+```typescript
+ng test --progress
+```
+
+### Sourcemap flag
+Enables debuger tests by generating source maps (default true).
+```typescript
+ng test --sourcemaps
+```
+
+### Watch flag
+Runs the test once and watchs for changes and re-runs the test (default true).  
+Set to false for single test runs.
+```typescript
+ng test --watch
+```
