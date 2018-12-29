@@ -180,7 +180,7 @@ ng g c admin/users
 
 ## Building and Serving
 
-> Use the ng <command> **-help** flag to get 
+> Use the ng <command> **--help** flag to get 
 > an overview which options are availbale for this specific command.
 
 ### Webpack Analyzer
@@ -203,7 +203,7 @@ With the following command a graphical view of webpack is generated and displaye
 ```javascript
 npm run stats
 ```
-
+---
 ### Common ng build options
 
 Generates a source map while building the solution. (Default on Dev-build)
@@ -225,7 +225,7 @@ Create an optimized production build.
 ```typescript
 ng build --prod // (-p)
 ```
-
+---
 ### Common ng serve options
 
 > All options from **ng build** are available as well for serving.
@@ -249,3 +249,6 @@ Allows you to configurate your proxy settings.
 ```typescript
 ng serve --proxy-config
 ```
+---
+### Common ng add packages
+
