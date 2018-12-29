@@ -15,7 +15,7 @@ You can find more necessary information here on the **official Angular CLI** web
 3. [Linting](#Linting)
 4. [Generating Code from Blueprints](#Blueprints)
 5. [Building and Serving](#Building-and-Serving)
-6. [## Unit and End2End Tests](#Testing)
+6. [Unit and End2End Tests](#Testing)
 
 ## Generate new App
 
