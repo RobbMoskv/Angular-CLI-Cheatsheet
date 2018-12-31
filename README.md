@@ -300,14 +300,36 @@ _For Example: Migrate a V5 app to a V6 app._
 ng update <package> <options>
 ```
 
-### Update options
+#### Update options
 
 ```typescript
 ng update --dry-run // Test without affecting changes
 ng update --all // Updates all packages in package.json
 ng update --force
 ```
-### Update guide
+#### Update guide
 
 Greate guide to follow your fitting update process.
 > update.angular.io
+
+### Multiple Projects
+Create multipe apps within an Angular projects (e.g. a Helper area).
+```typescript
+cd <project>
+ng generate application <name>
+```
+
+### Angular Library
+
+library must be build before it can be seen and used.
+```typescript
+ng generate library <name> <options>
+```
+
+After a prod build it can be published.
+```typescript
+ng build <name> --prod
+cd dist/<name>
+npm publish
+```
+
