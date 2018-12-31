@@ -307,4 +307,7 @@ ng update --dry-run // Test without affecting changes
 ng update --all // Updates all packages in package.json
 ng update --force
 ```
+### Update guide
 
+Greate guide to follow your fitting update process.
+> update.angular.io
