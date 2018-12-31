@@ -16,7 +16,7 @@ You can find more necessary information here on the **official Angular CLI** web
 4. [Generating Code from Blueprints](#Blueprints)
 5. [Building and Serving](#Building-and-Serving)
 6. [Unit and End2End Tests](#Testing)
-7. [Tooling & Features)(#Tools-and-Features)
+7. [Tooling & Features](#Tools-and-Features)
 
 ## Generate new App
 
@@ -294,7 +294,17 @@ ng test --watch
 ## Tools and Features
 
 ### Update
+Adopts current version of Angular and updates 3rd party libraries with schematics.
+_For Example: Migrate a V5 app to a V6 app._
 ```typescript
-ng update
+ng update <package> <options>
+```
+
+### Update options
+
+```typescript
+ng update --dry-run // Test without affecting changes
+ng update --all // Updates all packages in package.json
+ng update --force
 ```
 
