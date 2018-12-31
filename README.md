@@ -332,4 +332,3 @@ ng build <name> --prod
 cd dist/<name>
 npm publish
 ```
-
