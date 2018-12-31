@@ -16,6 +16,7 @@ You can find more necessary information here on the **official Angular CLI** web
 4. [Generating Code from Blueprints](#Blueprints)
 5. [Building and Serving](#Building-and-Serving)
 6. [Unit and End2End Tests](#Testing)
+7. [Tooling & Features)(#Tools-and-Features)
 
 ## Generate new App
 
@@ -290,3 +291,10 @@ Set to false for single test runs.
 ```typescript
 ng test --watch
 ```
+## Tools and Features
+
+### Update
+```typescript
+ng update
+```
+
